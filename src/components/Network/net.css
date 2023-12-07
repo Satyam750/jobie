@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.Net{
+  position: absolute;
+  top:34rem;
+  left:20rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 650px;
+  
+}
+
+.Net-head{
+  display: flex;
+  justify-content: space-between;
+
+}
+.Net-head h1{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
+}
+.Net-head img{
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.Net-follow{
+  display: flex;
+  flex-direction: column;
+}
+.Net-follow-1 {
+  display: flex;
+}
+.Net-color-1{
+  height: 16px;
+  width: 16px;
+  background-color: #374c98;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Net-name{
+  margin-left: 20px;
+}
+.Net-name p{
+  font-size: 10px;
+
+}
+.Net-name h2{
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.Net-color-2{
+  height: 16px;
+  width: 16px;
+  background-color: #FBA92D;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Net-img{
+  width: 120px;
+  height: 120px;
+ position: absolute;
+ top: 40px;
+ left: 60%;
+}

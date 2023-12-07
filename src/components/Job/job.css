@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.Job{
+    position: absolute;
+    top:34rem;
+    left:62.1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 550px;
+}
+
+.Job-head{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .Job-head h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+  }
+  .Job-head img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .Job-icon{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+  }
+  .Job-icon img{
+    height: 60px;
+    width: 60px;
+  }
+
+  .Job_Name_1 ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-left: -10px;
+  }
+
+  .Job_Name_1 ul li{
+    font-size: 14px;
+    font-weight: 600;
+  }
+ /* .job-d{
+    margin-left: 15px;
+ }
+ .job-p{
+    margin-left: 25px;
+ }
+ .job-m{
+    margin-left: 20px;
+ }
+ .job-s{
+    margin-left: 15px;
+ } */
+
+ .Job_Name_2 ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: -10px;
+ }
+
+ .Job_Name_2 ul li{
+    font-size: 10px;
+    margin-top: -10px;
+ }
