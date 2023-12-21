@@ -15,6 +15,29 @@
     z-index: 10000;
 
 }
+
+.person{
+    font-size: 1vw !important;
+    background-color: #E3E3E3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #40189D;
+    
+}
+.person:hover{
+    color: orange;
+    transition: all .4s ease-in-out;
+    background-color: #40189D;
+}
+
+.image-menu{
+    font-size: 30px;
+}
+.image-menu:hover{
+    color: orange;
+    transition: all .4s ease-in-out;
+}
 .menu{
     margin-left:30px ;
     cursor: pointer;
@@ -22,6 +45,10 @@
 .heading{
     font-size: 30px;
     font-weight: 600;
+}
+.heading:hover{
+    color: #40189D;
+
 }
 
 .mid-top{
@@ -34,8 +61,22 @@
     border-radius: 30px;
     border: none;
     background-color: #E3E3E3;
-    
-   
+}
+
+.mid-top .top-in:hover{
+    background-color: #40189D;
+    transition: all .4s ease-in-out;
+    color: white;
+}
+.searchicon{
+    color: #ac97dd;
+}
+
+input::placeholder {
+    color: #40189D;
+}
+input:hover::placeholder {
+    color: white;
 }
 textarea:focus, input:focus{
     outline: none;
@@ -66,4 +107,78 @@ textarea:focus, input:focus{
     margin-top: -20px;
     font-size: 10px;
     font-weight: 100;
+}
+
+.last-top{
+    position: relative;
+}
+
+.last-top-icon-1{
+    background-color: white;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    padding: 10px;
+    color: #3E4954;
+}
+
+.last-top-icon-1:hover{
+    background-color: rgb(226, 219, 249);
+    transition: all .4s ease-in-out;
+    color: #40189D;
+
+}
+.last-top-icon-2:hover{
+    background-color: rgb(226, 219, 249);
+   transition: all .4s ease-in-out;
+   color: #40189D;
+
+}
+
+.sl-1{
+    position: absolute;
+    left: 2vw;
+    top: 0.5vw;
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: #40189D;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.sl-1 p{
+    font-size: 13px;
+    margin-left: 0.3vw;
+    color: white;
+}
+
+
+.last-top-icon-2{
+    background-color: white;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    padding: 10px;
+    color: #3E4954;
+}
+
+.sl-2{
+    position: absolute;
+    left: 7.3vw;
+    top: 0.5vw;
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: #40189D;
+    border-radius: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.sl-2 p{
+    font-size: 13px;
+    margin-left: 0.2vw;
+    color: white;
 }

@@ -16,18 +16,22 @@ const SideBar = () => {
       </div>
       <div className='side-list'>
            <ul className='side-ul'>
-            <li> <FaHome style={{marginRight:"10px"}}/>
-            Dashboard</li>
-            <li> <FaSearch style={{marginRight:"10px"}} />
-            Search Job</li>
-            <li> <IoExtensionPuzzle style={{marginRight:"10px"}} />
-            Appliction</li>
-            <li> <AiFillMessage style={{marginRight:"10px"}}  />
-            Message</li>
-            <li> <FaChartPie style={{marginRight:"10px"}}   />
-            Statistics</li>
-            <li> <FaNewspaper  style={{marginRight:"10px"}} />
-            News</li>
+            <li> 
+            <button> 
+            <FaHome/>
+              <span> Dashboard</span>
+            </button>
+         </li>
+            <li> <button><FaSearch /> <span>Search Job</span> </button>
+            </li>
+            <li> <button> <IoExtensionPuzzle /> <span>Application</span> </button>
+            </li>
+             <li> <button> <AiFillMessage /> <span>Message</span> </button>
+            </li> 
+            <li> <button> <FaChartPie /> <span> Statistics</span> </button>
+            </li>
+            <li> <button> <FaNewspaper /> <span> News</span> </button>
+            </li>
            </ul>
       </div>
      

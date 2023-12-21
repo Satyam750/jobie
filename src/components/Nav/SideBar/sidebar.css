@@ -7,8 +7,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     position: fixed;
+    overflow: hidden;
 }
 .img{
     height: 66px;
@@ -17,24 +18,41 @@
     margin-left: 10px;
 }
 
+span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
 .side-ul{
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-left: -70px;
-}
-
-li{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    color: #BFBFBF;
-}
-
-li:hover{
-    cursor: pointer;
-    color: #F2F2F2;
+    gap: 10px;
     
 }
+
+li button {
+   padding: 20px ;
+   width: 13.49vw;
+   border: none;
+   background-color: #40189D;
+   font-size: 20px;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+   outline: none;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   
+   
+}
+li :hover {
+    background-color: #F2F2F2;
+    transition: all .4s ease-in-out;
+ }
+
+
+ 
+
 
